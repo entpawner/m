@@ -2,7 +2,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("GPVXZ Entity spawner", "DarkTheme")
 
 local Tab = Window:NewTab("Spawn Entities")
-Section:UpdateSection("Click Three dots for Credits")
 
 Section:NewButton("Crucifix", "PenguinManiack", function()
     _G.Uses = 1
